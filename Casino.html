@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Casino: welcome bonus, get up to $800">
+  <meta name="viewport" content="width=device-width">
+  <title>Casino</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" href="favicon/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="casino_webfonts/css/casino_webfont.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="top">
+        <ul id="top-left">
+          <li><a href="">Help</a></li>
+          <li><a href="">Rules</a></li>
+          <li><a href="">Loyalty</a></li>
+          <li><a href="">News</a></li>
+        </ul>
+        <ul class="lang-switch">
+          <li>EN</li>
+          <li><img src="languages.svg" alt="en-lang"></li>
+          <li><a><i class="fas fa-angle-down"></i></a></li>
+        </ul>
+      </div>
+      <div class="menu">
+        <ul id="invisible">
+          <li><img src="humburger.svg" alt="hamburger-logo"></li>
+          <li><img class="logo" src="casino.svg" alt="demo-casino-logo"></li>
+          <li>
+            <picture>
+              <source srcset="search.svg" type="image/svg+xml" media="(min-width: 768px)">
+              <source srcset="search-sm.svg" type="image/svg+xml" media="(max-width: 768px)">
+              <img src="search.svg" alt="search-logo">
+            </picture>
+          </li>
+        </ul>
+        <ul id="visible">
+          <li><img class="logo" src="casino.svg" alt="demo-casino-logo"></li>
+          <li><a href=""><span>GAMES</span></a></li>
+          <li><a href=""><span>BONUSES</span></a></li>
+          <li><a href=""><span>PROMOTIONS</span></a></li>
+          <li>
+            <div class="dropdown">
+              <button type="button" class="btn-dropdown">MORE <i class="icon-arrow" style="margin: 0 0.8rem"></i></button>
+              <div class="dropdown-content">
+                <a href="#" class="first-dropdown-a">Text</a>
+                <a href="#">More</a>
+                <a href="#">Smth</a>
+                <a href="#">Smbd</a>
+              </div>
+            </div>
+          </li>
+          <li><img src="search.svg"></li>
+        </ul>
+        <ul>
+          <li><img class="invisible" src="sign-in.svg" alt="sign-in-logo"></li>
+          <li><button type="button" class="btn-secondary visible">SIGN IN</button></li>
+          <li><button type="button" class="btn-primary">SIGN UP</button></li>
+        </ul>
+      </div>
+      <div class="games">
+        <ul>
+          <li><a href=""><i class="icon-cherries"></i>Popular</a></li>
+          <li><a href=""><i class="icon-new"></i>New</a></li>
+          <li><a href=""><i class="icon-heart"></i>Recommended</a></li>
+          <li><a href=""><i class="icon-seven"></i>Slots</a></li>
+          <li><a href=""><i class="icon-roulette"></i>Roulette</a></li>
+          <li><a href=""><i class="icon-poker"></i>Cards</a></li>
+          <li><a href=""><i class="icon-tablegames"></i>Table Games</a></li>
+          <li><a href=""><i class="icon-other"></i>Other</a></li>
+          <li><a href=""><i class="icon-live"></i>Live</a></li>
+          <li><a href=""><i class="icon-rummy"></i>Rummy</a></li>
+          <li><a href=""><i class="icon-football"></i>Virtual Sport</a></li>
+          <li><a href=""><i class="icon-betting"></i>Betting</a></li>
+          <li><a href=""><i class="icon-loto"></i>Loto</a></li>
+          <li><a href=""><i class="icon-fish"></i>Fish Games</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner section -->
+
+  <div class="banner">
+    <div class="banner-text">
+      <h6>WELCOME BONUS</h6>
+      <h1>GET UP TO $800 <br> +4000 FREE SPINS</h1>
+      <h5>DEMO CASINO IS THE BEST CONDITION <br> FOR PLAYERS</h5>
+    </div>
+    <picture>
+      <source srcset="banner_image.jpg" type="image/png" media="(min-width: 1200px)">
+      <source srcset="1200/1200/banner-bg-1200.jpg" type="image/png" media="(min-width: 768px)">
+      <source srcset="768/banner-image-768.jpg" type="image/png" media="(min-width: 555px)">
+      <source srcset="mobile/banne-mobiler.png" type="image/png" media="(min-width: 100px)">
+      <img src="banner_image.jpg" alt="banner">
+    </picture>
+
+  </div>
+
+  <!-- Popular Games -->
+
+  <section id="popular">
+    <div class="section">
+      <div class="section-header">
+        <h2>POPULAR GAMES</h2>
+        <button type="button" class="btn-secondary">VIEW ALL</button>
+      </div>
+      <div class="cards">
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/2.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/3.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/5.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/6.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/7.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/8.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/10.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/11.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button type="button" class="btn-primary">VIEW ALL</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Games Section -->
+
+  <section id="new">
+    <div class="section">
+      <div class="section-header">
+        <h2>NEW GAMES</h2>
+        <button type="button" class="btn-secondary">VIEW ALL</button>
+      </div>
+      <div class="cards">
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/2.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/3.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/5.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/6.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/7.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/8.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/10.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/11.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-footer">
+      <button type="button" class="btn-primary">VIEW ALL</button>
+    </div>
+    </div>
+  </section>
+
+  <!-- Recommended Games section -->
+
+  <section id="recommended">
+    <div class="section">
+      <div class="section-header">
+        <h2>RECOMMENDED GAMES</h2>
+        <button type="button" class="btn-secondary">VIEW ALL</button>
+      </div>
+      <div class="cards">
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/2.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/3.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/5.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/6.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/7.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/8.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/1.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/10.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/11.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+        <div style="background-image: url(games/4.png)" class="card">
+          <div class="card-overlay">
+            <span><img src="Star.svg" alt="star-img"></span>
+            <span><button type="button" class="btn-secondary">DEMO</button></span>
+            <span><button type="button" class="btn-primary">PLAY</button></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-footer">
+      <button type="button" class="btn-primary">VIEW ALL</button>
+    </div>
+    </div>
+  </section>
+
+  <!-- Jackpots section -->
+
+  <section id="jackpots">
+    <div class="section">
+      <div class="section-header">
+        <h2>JACKPOTS</h2>
+      </div>
+      <div class="jackpots">
+        <div class="super">
+          <picture>
+            <source srcset="jackpots/super_jackpot.svg" type="image/svg+xml" media="(min-width: 768px)">
+            <source srcset="jackpots-768/super.png" type="image/png" media="(max-width: 555px)">
+            <source srcset="jackpots-mobile/super.png" type="image/png" media="(min-width: 0px)">
+            <img src="jackpots/super_jackpot.svg" alt="super_jackpot_img">
+          </picture>
+          <h6>СУПЕР ДЖЕКПОТ</h6>
+        </div>
+        <div class="mega">
+          <picture>
+            <source srcset="jackpots/ultra_jackpot.svg" type="image/svg+xml" media="(min-width: 768px)">
+            <source srcset="jackpots-768/mega.png" type="image/png" media="(min-width: 320px)">
+            <source srcset="jackpots-mobile/mega.png" type="image/png" media="(min-width: 0px)">
+            <img src="jackpots/ultra_jackpot.svg" alt="mega_jackpot_img">
+          </picture>
+          <h6>МЕГА ДЖЕКПОТ</h6>
+        </div>
+        <div class="ultra">
+          <picture>
+            <source srcset="jackpots/mega_jackpot.svg" type="image/svg+xml" media="(min-width: 768px)">
+            <source srcset="jackpots-768/ultra.png" type="image/png" media="(min-width: 320px)">
+            <source srcset="jackpots-mobile/ultra.png" type="image/png" media="(min-width: 0px)">
+            <img src="jackpots/mega_jackpot.svg" alt="ultra_jackpot_img">
+          </picture>
+          <h6>УЛЬТРА ДЖЕКПОТ</h6>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button type="button" class="btn-primary">SIGN UP</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+
+  <section id="news">
+    <div class="section">
+      <div class="section-header">
+        <h2>NEWS</h2>
+        <button type="button" class="btn-secondary">VIEW ALL</button>
+      </div>
+      <div class="cards-news">
+        <div class="card-news">
+          <div style="background-image: url(news/news_1.png)" class="card"></div>
+          <div class="news-text">
+            <p class="date">14 сентября 2018, 14:53</p>
+            <h6>Новый игровой автомат Hot Spin от iSoftBet</h6>
+            <p class="news-text-p">Девелопер iSoftBet приглашает игроков перенестись в атмосферу классических "одноруких бандитов"...</p>
+            <button type="button" class="btn-secondary">READ</button>
+          </div>
+        </div>
+        <div class="card-news">
+          <div style="background-image: url(news/news_2.png)" class="card"></div>
+          <div class="news-text">
+            <p class="date">14 сентября 2018, 14:53</p>
+            <h6>Новый игровой автомат Hot Spin от iSoftBet</h6>
+            <p class="news-text-p">Девелопер iSoftBet приглашает игроков перенестись в атмосферу классических "одноруких бандитов"...</p>
+            <button type="button" class="btn-secondary">READ</button>
+          </div>
+        </div>
+        <div id="news_3" class="card-news">
+          <div style="background-image: url(news/news_3.png)" class="card"></div>
+          <div class="news-text">
+            <p class="date">14 сентября 2018, 14:53</p>
+            <h6>Новый игровой автомат Hot Spin от iSoftBet</h6>
+            <p class="news-text-p">Девелопер iSoftBet приглашает игроков перенестись в атмосферу классических "одноруких бандитов"...</p>
+            <button type="button" class="btn-secondary">READ</button>
+          </div>
+        </div>
+        <div id="news_4" class="card-news">
+          <div style="background-image: url(news/news_4.png)" class="card"></div>
+          <div class="news-text">
+            <p class="date">14 сентября 2018, 14:53</p>
+            <h6>Новый игровой автомат Hot Spin от iSoftBet</h6>
+            <p class="news-text-p">Девелопер iSoftBet приглашает игроков перенестись в атмосферу классических "одноруких бандитов"...</p>
+            <button type="button" class="btn-secondary">READ</button>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <button type="button" class="btn-primary">VIEW ALL</button>
+      </div>
+
+  </section>
+
+  <!-- Winners Section -->
+
+  <section id="winners">
+    <div class="section">
+      <div class="section-header">
+        <h2>WINNERS</h2>
+      </div>
+      <div>
+        <img class="arrow-left" src="arrow-left.svg" alt="left-arrow">
+        <img class="arrow-right" src="arrow-right.svg" alt="right-arrow">
+      </div>
+      <div class="cards">
+        <div style="background-image: url(winners/1.png)" class="card">
+          <div class="card-overlay">
+            <span>
+              <p>NICKNAME</p>
+            </span>
+            <span>
+              <p class="USD">1 202 587 USD</p>
+            </span>
+          </div>
+        </div>
+        <div id="winners_2" style="background-image: url(winners/2.png)" class="card">
+          <div class="card-overlay">
+            <span>
+              <p>NICKNAME</p>
+            </span>
+            <span>
+              <p class="USD">1 202 587 USD</p>
+            </span>
+          </div>
+        </div>
+        <div id="winners_3" style="background-image: url(winners/3.png)" class="card">
+          <div class="card-overlay">
+            <span>
+              <p>NICKNAME</p>
+            </span>
+            <span>
+              <p class="USD">1 202 587 USD</p>
+            </span>
+          </div>
+        </div>
+        <div id="winners_4" style="background-image: url(winners/4.png)" class="card">
+          <div class="card-overlay">
+            <span>
+              <p>NICKNAME</p>
+            </span>
+            <span>
+              <p class="USD">1 202 587 USD</p>
+            </span>
+          </div>
+        </div>
+        <div id="winners_5" style="background-image: url(winners/5.png)" class="card">
+          <div class="card-overlay">
+            <span>
+              <p>NICKNAME</p>
+            </span>
+            <span>
+              <p class="USD">1 202 587 USD</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO BLOCK -->
+
+  <section id="SEO">
+    <div class="section-header">
+      <h2>SEO BLOCK</h2>
+    </div>
+    <div class="seo-text">
+      <h6>Lorem ipsum dolor sit amet</h6>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem
+        ipsum dolor
+        sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br> Lorem ipsum dolor sit
+        amet,
+        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+        labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.</p>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="section">
+      <div class="coloumns">
+        <div class="footer-coloumns">
+          <div class="footer-links">
+            <h6>ИГРЫ</h6>
+            <ul>
+              <li><a href="">Slots</a></li>
+              <li><a href="">Jackpots</a></li>
+              <li><a href="">Настольные</a></li>
+              <li><a href="">Live diller</a></li>
+              <li><a href="">Games BTC</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h6>СПРАВКА</h6>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">About Bitcoin</a></li>
+              <li><a href="">Instant exchange of BTC to EUR</a></li>
+              <li><a href="">Checking game results</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h6>ИНФОРМАЦИЯ</h6>
+            <ul>
+              <li><a href="">Blog</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Terms and conditions</a></li>
+              <li><a href="">Bonus Terms and conditions</a></li>
+              <li><a href="">Payments</a></li>
+              <li><a href="">Safe play</a></li>
+              <li><a href="">Complaints Procedure</a></li>
+              <li><a href="">Affiliates</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h6>АКЦИИ</h6>
+            <ul>
+              <li><a href="">Promotions</a></li>
+              <li><a href="">Slot wars</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h6>ЧИТАЙТЕ НАС</h6>
+            <i><img src="social/facebook.svg" alt="facebook-logo"></i>
+            <i><img src="social/instagram.svg" alt="instagram-logo"></i>
+            <i><img src="social/vk.svg" alt="vk-logo"></i>
+            <i><img src="social/twitter.svg" alt="twitter-logo"></i>
+            <i><img src="social/ok.svg" alt="ok-logo"></i>
+            <i><img src="social/telegram.svg" alt="telegram-logo"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-coloumns">
+        <div class="first-coloumn">
+          <div class="footer-links">
+            <h6>ИГРЫ</h6>
+            <ul>
+              <li><a href="">Slots</a></li>
+              <li><a href="">Jackpots</a></li>
+              <li><a href="">Настольные</a></li>
+              <li><a href="">Live diller</a></li>
+              <li><a href="">Games BTC</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <br>
+            <h6>ИНФОРМАЦИЯ</h6>
+            <ul>
+              <li><a href="">Blog</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Terms and conditions</a></li>
+              <li><a href="">Bonus Terms and conditions</a></li>
+              <li><a href="">Payments</a></li>
+              <li><a href="">Safe play</a></li>
+              <li><a href="">Complaints Procedure</a></li>
+              <li><a href="">Affiliates</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="second-coloumn">
+          <div class="footer-links">
+            <h6>СПРАВКА</h6>
+            <ul>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">About Bitcoin</a></li>
+              <li><a href="">Instant exchange of BTC to EUR</a></li>
+              <li><a href="">Checking game results</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <br>
+            <h6>АКЦИИ</h6>
+            <ul>
+              <li><a href="">Promotions</a></li>
+              <li><a href="">Slot wars</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <br>
+            <h6>ЧИТАЙТЕ НАС</h6>
+            <i><img src="social/facebook.svg" alt="facebook-logo"></i>
+            <i><img src="social/instagram.svg" alt="instagram-logo"></i>
+            <i><img src="social/vk.svg" alt="vk-logo"></i>
+            <i><img src="social/twitter.svg" alt="twitter-logo"></i>
+            <i><img src="social/ok.svg" alt="ok-logo"></i>
+            <i><img src="social/telegram.svg" alt="telegram-logo"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="">
+        <h6>ACCEPTED CURRENCIES</h6>
+        <div class="icons">
+          <i><img src="currencies/Group_2229.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2230.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2231.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2232.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2233.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2234.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2235.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Group_2236.svg" alt="currency-logo"></i>
+          <i><img src="currencies/Subtract.svg" alt="currency-logo"></i>
+        </div>
+        <div class="logos">
+          <img src="partners/Group.png" alt="vivogaming-logo">
+          <img src="partners/logo-Endorphina.png" alt="endorphina-logo">
+          <img src="partners/kiron.png" alt="kiron-logo">
+          <img src="partners/Habanero.png" alt="habanero-logo">
+          <img src="partners/spinomenal.png" alt="spinomenal-logo">
+          <img src="partners/redrake.png" alt="redrake-logo">
+          <img src="partners/joingames1.png" alt="join-games-logo">
+          <img src="partners/betgames.png" alt="bet-games-logo">
+          <img src="partners/microgaming.png" alt="microgaming-logo">
+          <img src="partners/xpg.png" alt="xprogaming-logo">
+          <img src="partners/th_logo2.png" alt="tom_horn-logo">
+          <img src="partners/inbet1.png" alt="inbet-logo">
+        </div>
+        <div class="lic">
+          <div class="fortunejack"><img src="fortunejack.png" alt="fortunejack-logo"></div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

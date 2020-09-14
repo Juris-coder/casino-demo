@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'casino_webfont';
+  src: url('../font/casino_webfont.eot?54777436');
+  src: url('../font/casino_webfont.eot?54777436#iefix') format('embedded-opentype'),
+       url('../font/casino_webfont.woff2?54777436') format('woff2'),
+       url('../font/casino_webfont.woff?54777436') format('woff'),
+       url('../font/casino_webfont.ttf?54777436') format('truetype'),
+       url('../font/casino_webfont.svg?54777436#casino_webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'casino_webfont';
+    src: url('../font/casino_webfont.svg?54777436#casino_webfont') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "casino_webfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-betting:before { content: '\e800'; } /* '' */
+.icon-cherries:before { content: '\e801'; } /* '' */
+.icon-fish:before { content: '\e802'; } /* '' */
+.icon-football:before { content: '\e803'; } /* '' */
+.icon-heart:before { content: '\e804'; } /* '' */
+.icon-loto:before { content: '\e805'; } /* '' */
+.icon-rummy:before { content: '\e806'; } /* '' */
+.icon-new:before { content: '\e807'; } /* '' */
+.icon-other:before { content: '\e808'; } /* '' */
+.icon-roulette:before { content: '\e80a'; } /* '' */
+.icon-tablegames:before { content: '\e80d'; } /* '' */
+.icon-live:before { content: '\e80e'; } /* '' */
+.icon-poker:before { content: '\e80f'; } /* '' */
+.icon-seven:before { content: '\e810'; } /* '' */
+.icon-arrow:before { content: '\e811'; } /* '' */

@@ -1,0 +1,830 @@
+body {
+  background-color: #0C1022 !important;
+  font-family: Roboto;
+  color: white !important;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover, .top a:hover {
+  color: #01B1FF !important;
+  text-shadow: 0px 0px 10px #00B2FF;
+}
+
+.section {
+  width: 90%;
+  margin: auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0 20px 0;
+}
+
+.section-header h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 0;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*  Buttons */
+.btn-primary, .btn-secondary, .btn-dropdown {
+  font-style: italic;
+  font-weight: 900;
+  line-height: 150%;
+  border-radius: 30px;
+  color: white;
+}
+
+.btn-primary {
+  font-size: 16px;
+  background: linear-gradient(90deg, #00B2FF 3.1%, #8F00FF 96.08%);
+  border-style: none;
+  padding: 15px 100px;
+}
+
+.btn-secondary, .btn-dropdown {
+  font-size: 14px;
+  padding: 11px 20px;
+  background: none;
+  border: 2px solid;
+  border-color: #00B2FF;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  box-shadow: 0px 0px 20px #4B55FF;
+}
+
+.btn-secondary:hover {
+  color: #00B2FF;
+}
+
+.btn-primary:active {
+  background: linear-gradient(90deg, #00FFD1 0%, #00B2FF 39.29%, #8F00FF 100%);
+}
+
+.btn-secondary:active {
+  border-color: #00FCD3;
+}
+
+.menu a:hover {
+  color: #00B2FF !important;
+}
+
+/* DROPDOWN */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown button {
+  background-color: #11183A;
+  position: relative;
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+}
+
+.dropdown-content {
+  font-family: Roboto;
+  font-style: italic;
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  display: none;
+  width: 100%;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+}
+
+.dropdown-content a {
+  border-image: linear-gradient(270.16deg, #00B2FF 0.11%, #8F00FF 99.83%) 1;
+  border-top: 2px solid;
+  color: black !important;
+  padding: 15px 20px;
+}
+
+.dropdown-content a:hover {
+  background: linear-gradient(270.16deg, #00B2FF 0.11%, #8F00FF 99.83%);
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: #07062E;
+  font-style: normal;
+}
+
+.invisible, #invisible {
+  display: none;
+}
+
+.header .btn-primary {
+  font-size: 14px;
+  padding: 11px 50px;
+}
+
+.logo {
+  filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.top {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.menu {
+  background-color: #11183A;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.games {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.games a:hover, .games a:active {
+  color: #00FFD1 !important;
+}
+
+.menu span:active {
+  border-bottom: 3px solid #00B2FF;
+  padding-bottom: 2px;
+  color: #00B2FF !important;
+  text-shadow: none;
+}
+
+.top, .games, .footer-links, .top a, .games a {
+  color: #AFABCA !important;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+}
+
+.header li {
+  padding: 7px 1.6rem;
+}
+
+.games ul {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.games li {
+  display: inline-block;
+  float: none;
+}
+
+.menu, .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-dropdown-a {
+  padding: 40px 20px 15px !important;
+}
+
+.lang-switch {
+  padding-right: 1.6rem;
+}
+
+.lang-switch li {
+  padding: 0 0.5rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  height: 4px;
+  background-color: #00FFD1;
+}
+
+.seo-text::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00FFD1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #21194E;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-text h1 {
+  font-family: Kufam;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 4vw;
+  line-height: 130%;
+}
+
+.banner-text h6 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1vw;
+  * line-height: 21px;
+  color: #00FFD1;
+}
+
+.banner-text h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3vw;
+  line-height: 150%;
+  color: #AFABCA;
+}
+
+.banner-text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+/* Cards, games */
+.card {
+  background-size: cover;
+  width: 364px;
+  height: 244px;
+  margin: auto;
+}
+
+#popular .card, #new .card, #recommended .card {
+  filter: drop-shadow(0 0 20px #8F00FF);
+}
+
+#popular .card:hover, #new .card:hover, #recommended .card:hover {
+  filter: drop-shadow(0 0 40px #00FFD1);
+}
+
+.card:hover .card-overlay {
+  display: flex;
+}
+
+.card-overlay {
+  display: none;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  width: 364px;
+  height: 104px;
+  background-color: rgba(12, 16, 34, 0.9);
+  border-radius: 0 0 10px 10px;
+}
+
+.card-overlay span {
+  margin: auto;
+}
+
+.card-overlay .btn-primary {
+  padding: 10px 25px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-gap: 20px;
+}
+
+#new {
+  background-image: url("section-bg.png");
+  background-size: cover;
+  padding: 5vh 0 15vh;
+}
+
+/* Jackpots */
+#jackpots {
+  background-image: url("section-bg1.png");
+  background-size: cover;
+  resize: both;
+  text-align: center;
+  padding: 5vh 0;
+}
+
+#jackpots .section-header {
+  display: block;
+}
+
+.jackpots {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: auto;
+}
+
+.jackpots h6 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 60px 0;
+}
+
+.jackpots div {
+  padding: 0 60px;
+}
+
+.jackpots img {
+  width: 100%;
+}
+
+.super {
+  color: #DAAB65;
+}
+
+.mega {
+  color: #F9D941;
+}
+
+.ultra {
+  color: #CCD4E9;
+}
+
+/* News */
+#news .section-header {
+  margin-bottom: 45px;
+}
+
+.date {
+  font-size: 12px;
+  color: #AFABCA;
+}
+
+.news-text {
+  background-color: #182043;
+  padding: 10px 15px 25px;
+  border-radius: 0 0 10px 10px;
+}
+
+.news-text h6 {
+  font-size: 21px;
+  font-weight: bold;
+  color: #00FFD1;
+  line-height: 150%;
+  font-style: normal;
+  margin: 0 0 15px;
+}
+
+.news-text p {
+  margin: 0 0 15px;
+}
+
+.news-text button {
+  width: 100%;
+}
+
+.news-text-p {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.cards-news {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+
+.card-news {
+  width: 364px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.card-news:hover {
+  box-shadow: 0px 0px 15px #00B2FF;
+}
+
+/* WINNERS */
+#winners {
+  position: relative;
+}
+
+.arrow-left, .arrow-right {
+  position: absolute;
+  top: 45%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-left {
+  left: 5px;
+}
+
+.arrow-right {
+  right: 5px;
+}
+
+#winners .card {
+  position: relative;
+  width: 285px;
+  height: 190px;
+}
+
+#winners .cards {
+  grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
+}
+
+#winners .card-overlay {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  bottom: -2px;
+  background-color: #2C1A63;
+}
+
+#winners p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.USD {
+  color: #00FFD1;
+}
+
+/* SEO */
+#SEO {
+  background-image: url("BG_SEO.png");
+  background-size: cover;
+  resize: both;
+  padding-top: 20vh;
+  height: 80vh;
+}
+
+#SEO .section-header {
+  display: block;
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+.seo-text {
+  margin: auto;
+  width: 50%;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+#SEO p {
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 150%;/
+}
+
+/* Footer */
+footer {
+  background-color: #07062E;
+  padding-top: 50px;
+}
+
+footer a {
+  color: #AFABCA;
+}
+
+.footer-coloumns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  line-height: 200%;
+}
+
+.footer-links h6, #SEO h6 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  color: white;
+}
+
+.footer-links i {
+  padding-right: 5px;
+}
+
+.icons {
+  margin-bottom: 50px;
+}
+
+.icons i {
+  padding-right: 2%;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13%, 1fr));
+  grid-gap: 35px;
+}
+
+.logos img {
+  margin: auto;
+}
+
+.lic {
+  display: flex;
+  font-size: 14px;
+  padding: 40px 0;
+}
+
+.lic p {
+  margin: 0;
+}
+
+.first-coloumn, .second-coloumn {
+  display: none;
+  width: 50%;
+}
+
+/* *************** MEDIA***************** */
+@media only screen and (max-width: 1675px) {
+  #winners_5 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1644px) {
+  #news_4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .header li {
+    padding: 7px 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1333px) {
+  #winners_4 {
+    display: none;
+  }
+
+  .card, .card-news, .card-overlay {
+    width: 286px;
+  }
+
+  .card {
+    height: 190px;
+  }
+
+  .cards, .cards-news {
+    grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
+  }
+
+  .seo-text {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .first-coloumn, .second-coloumn {
+    display: block;
+  }
+
+  .coloumns {
+    display: none;
+  }
+
+  #SEO {
+    height: 60vh;
+    background-image: url("1200/1200/BG-SEO-1200.png");
+  }
+
+  #new {
+    background-image: url("1200/1200/section-bg-1200.png");
+  }
+
+  #jackpots {
+    background-image: url("1200/1200/section-bg-1-1200.png");
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  #winners_3 {
+    display: none;
+  }
+
+  #news_3 {
+    display: none;
+  }
+
+  .banner-text {
+    top: 20%;
+  }
+
+  .banner-text h5 {
+    display: none;
+  }
+
+  .banner-text h6 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .visible, #visible {
+    display: none;
+  }
+
+  .invisible, #invisible {
+    display: flex;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+  }
+
+  .jackpots h6 {
+    font-size: 24px;
+  }
+
+  .jackpots div {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .visible, #visible {
+    display: none;
+  }
+
+  .invisible, #invisible {
+    display: flex;
+  }
+
+  #SEO {
+    height: 70vh;
+    padding-top: 10vh;
+    background-image: url("768/BG-SEO-768.png");
+  }
+
+  #new {
+    background-image: url("768/section-bg-768.png");
+  }
+
+  #jackpots {
+    background-image: url("768/section-bg-1-768.png");
+  }
+
+  #winners {
+    margin-bottom: 50px;
+  }
+
+  .logos {
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  }
+
+  .card-news {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .logo, #top-left, #winners_2, .first-coloumn, .second-coloumn {
+    display: none;
+  }
+
+  .top {
+    justify-content: flex-end;
+  }
+
+  .lang-switch {
+    padding-right: 0.8rem;
+  }
+
+  .header li {
+    padding: 7px 0.4rem;
+  }
+
+  .card, .card-news, .card-overlay {
+    width: 130px;
+  }
+
+  .card {
+    height: 88px;
+  }
+
+  .cards-news, .lic {
+    display: block;
+  }
+
+  .cards, .cards-news {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+
+  .banner-text h6 {
+    font-size: 12px;
+  }
+
+  .jackpots h6 {
+    font-size: 14px;
+  }
+
+  .jackpots div {
+    padding: 0;
+  }
+
+  .section-header {
+    margin: 50px 0 20px 0;
+  }
+
+  .section-header h2 {
+    font-size: 16px;
+  }
+
+  .seo-text {
+    width: 90%;
+  }
+
+  .coloumns, .footer-coloumns {
+    display: block;
+  }
+
+  .footer-links {
+    margin-bottom: 30px;
+  }
+
+  .logos {
+    grid-template-columns: repeat(auto-fill, minmax(27%, 1fr));
+  }
+
+  .fortunejack {
+    text-align: center;
+  }
+
+  .header .btn-primary {
+    padding: 11px 20px;
+  }
+
+  .banner-text h1 {
+    font-size: 18px;
+  }
+
+  .card-news {
+    width: 286px;
+  }
+
+  #news .card {
+    height: 191px;
+    width: 286px;
+  }
+
+  .card:hover .card-overlay {
+    display: none;
+  }
+
+  .btn-secondary {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
+  #winners .card {
+    width: 200px;
+    height: 133px;
+  }
+
+  #winners .card-overlay {
+    height: 40px;
+  }
+
+  #winners .cards {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+
+  #winners p {
+    font-size: 14px;
+  }
+}
