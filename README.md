@@ -1,1 +1,2 @@
-# Demo casino page HTML/CSS proposal
+# Casino
+Demo casino page HTML/CSS proposal
